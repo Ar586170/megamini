@@ -1,0 +1,69 @@
+/*-------------------------
+   Team Styles
+-------------------------*/
+
+
+
+.megamini-team{
+   padding: 0 0 100px;
+   .team-title-wrp{
+      .title{
+         font-weight: 400;
+      }
+      .subtitle{
+         font-size: 16px;
+         color: #6B7074;
+      }
+   }
+   .team-member-wrp{
+      .member-img{
+         a{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            width: 100%;
+            img{
+               transition: var(--transition);
+               transform: scale(1);
+               overflow: hidden;
+               width: 100%;
+               @media #{$md-layout}{
+                  width: 100%;
+               }
+            }
+         }
+      }
+      .member-title{
+         color: #6B7074;
+      }
+      .team-social-media{
+         ul{
+            gap: 8px;
+            .logo-color-1{
+               a{
+                  color: #33CCFF;
+               }
+            }  
+            .logo-color-2{
+               a{
+                  color:#E50707;
+               }
+            }  
+            .logo-color-3{
+               a{
+                  color:#1284ED;
+               }
+            }  
+         }
+      }
+      &:hover .member-img img{
+         transform: scale(1.05);       
+      }
+      &:hover .hover-line a{
+         background-size: 100% 2px;
+      }
+      @media #{$md-layout}{
+         margin-bottom: 40px;
+      }
+   }
+}

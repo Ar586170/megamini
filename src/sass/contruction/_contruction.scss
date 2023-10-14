@@ -1,0 +1,21 @@
+/*-------------------------
+    Contruction Style
+-------------------------*/
+
+
+
+.contruction-area{
+    .contruction-title-wrp{
+        .contruction-title{
+            font-weight: 400;
+        }
+    }
+    .back-btn{
+        .back-home-btn{
+            background-color: var(--color-rangoon);
+            color: var(--color-white);
+            padding: 10px 16px;
+            border-radius: 6px;
+        }
+    }
+}

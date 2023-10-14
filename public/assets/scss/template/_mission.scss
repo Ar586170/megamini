@@ -1,0 +1,48 @@
+/*-------------------------
+    Mission Style
+-------------------------*/
+
+
+
+.mission-1{
+    .mission-img{
+        a{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            width: 100%;
+            img{
+               transition: var(--transition);
+               transform: scale(1);
+               overflow: hidden;
+               width: 100%;
+               @media #{$md-layout}{
+                  width: 100%;
+                }
+            }
+        }
+        &:hover img{
+            transform: scale(1.05);       
+        }
+        @media #{$md-layout}{
+            margin-bottom: 40px;
+        }
+    }
+    .mission-wrp{
+        padding-left: 81px;
+        .mission-title{
+            font-size: 30px;
+        }
+        .mission-details{
+            @media #{$smlg-device}{
+                font-size: 13px;
+            }
+        }
+        .mission-title-2{
+            margin-bottom: 5px;
+        }
+        @media #{$md-layout}{
+            padding: 0;
+        }
+    }
+}

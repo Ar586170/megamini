@@ -1,0 +1,63 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Megamini{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+<!--=====================================-->
+<!--=        Header Top Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-top-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Header Mid Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-mid-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Banner Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/banner/banner-layout12.html' %}
+
+
+<!--=====================================-->
+<!--=        Text Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/text/text-layout4.html' %}
+
+
+<!--=====================================-->
+<!--=        Social Media Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/social-media/social-media-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

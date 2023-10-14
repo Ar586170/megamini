@@ -1,0 +1,73 @@
+/*-------------------------
+  Social Media
+-------------------------*/
+
+
+
+.instagram{
+  .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+    .instagram-img-wrp{
+        position: relative;
+        .instagram-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            a{
+                width: 100%;
+                            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                width: 100%;
+            }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+            @media #{$md-layout}{
+                text-align: center;
+                margin-bottom: 40px;
+            }
+        }
+        .click-more{
+        a{
+            opacity: 0;
+            visibility: hidden;
+            width: 60px;
+            height: 60px;
+            position: absolute;
+            background: var(--color-primary-periwinkle);
+            color: var(--color-white);
+            display: flex;
+            align-items: center;
+            top: 40%;
+            transform: translateY(-40%);
+            margin: auto;
+            left: 0;
+            right: 0;
+            border-radius: 100%;
+            font-size: 18px;
+            justify-content: center;
+            transition: 0.3s;
+            z-index: 4;
+            font-size: 36px;
+        }
+        }
+        &:hover{
+            .click-more{
+                a{
+                    opacity: 1;
+                    visibility: visible;
+                    transform: translateY(-50%);
+                    top: 50%;
+                }
+            }
+        }
+    }
+}

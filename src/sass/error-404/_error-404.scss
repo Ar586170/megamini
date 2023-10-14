@@ -1,0 +1,19 @@
+/*-------------------------
+    Error 404 Style
+-------------------------*/
+
+
+
+.error-area{
+   .error-banner{
+    position: relative;
+    .error-txt{
+        position: absolute;
+        top: 60px;
+        right: 25%;
+        .error-title{
+            font-size: 140px;
+        }
+    }
+   } 
+}

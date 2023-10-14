@@ -1,0 +1,103 @@
+/*-------------------------
+    Features Style
+-------------------------*/
+
+
+
+.megamini-features-1{
+    .section-title{   
+    }
+    .cart-2{
+       .features-title{
+            @media #{$smlg-device}{
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+    .load-more-btn{
+        margin-top: 60px;
+        text-align: center;
+        a{
+            background-color: var(--color-white);
+            padding: 15px 30px;
+            border-radius: 8px;
+            color: var(--color-rangoon);
+            font-weight: 400;
+            transition: var(--transition);
+            i{
+                margin-left: 10px;
+            }
+            &:hover{
+                background-color: var(--color-primary-periwinkle);
+                color: var(--color-white);
+            }
+        }
+    }
+}
+
+
+
+.megamini-features-3{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }   
+    }
+    .cart-2{
+        .megamini-cart-date{
+            margin-bottom: 16px;
+            ul{
+                li{
+                    color: #494E51;
+                }
+                .dot{
+                    background-color: #494E51;
+                }
+                .share-icon{
+                    color: #494E51;
+                }
+            }
+        }
+       .features-title{
+        color: var(--color-rangoon);
+            @media #{$smlg-device}{
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+}
+
+
+
+.megamini-features-4{
+    .section-title{
+        h2{
+            color: var(--color-white);
+        }   
+    }
+    .cart-2{
+        .megamini-cart-date{
+            margin-bottom: 16px;
+            ul{
+                li{
+                    color: var(--color-white);
+                }
+                .dot{
+                    background-color: var(--color-white);
+                }
+                .share-icon{
+                    color: var(--color-white);
+                }
+            }
+        }
+       .features-title{
+        color: var(--color-white);
+            @media #{$smlg-device}{
+                font-size: 28px;
+                font-weight: 600;
+            }
+        }
+    }
+}

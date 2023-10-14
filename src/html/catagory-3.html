@@ -1,0 +1,82 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Megamini{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+<!--=====================================-->
+<!--=        Header Top Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-top-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Header Mid Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-mid-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Recipes Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/recipes/recipes-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Post Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/post/post-layout3.html' %}
+
+
+<!--=====================================-->
+<!--=        Editor Choice Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/editor-choice/editor-choice-layout3.html' %}
+
+
+<!--=====================================-->
+<!--=        Articles Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/articles/articles-layout5.html' %}
+
+
+<!--=====================================-->
+<!--=         Call To Action Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/call-to-action/call-to-action-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Social Media Area Start       	=-->
+<!--=====================================-->
+{% include 'sections/social-media/social-media-layout2.html' %}
+
+
+<!--=====================================-->
+<!--=        Footer Area Start       	=-->
+<!--=====================================-->
+{% include 'footer/footer-layout1.html' %}
+
+
+
+
+
+{% endblock %}

@@ -1,0 +1,116 @@
+/*-------------------------
+   Text style
+-------------------------*/
+
+
+
+.about-text{
+    .about-txt-wrp{
+        .txt{
+            font-size: 20px;
+            color: #6B7074;
+            margin: 0;
+        }
+    }
+}
+
+
+.post-1-text{
+    .post-1-txt-wrp{
+        .post-1-txt-title{
+            font-weight: 400;
+        }
+        .post-1-txt{
+            color: #6B7074;
+            margin: 0;
+            padding: 0;
+            @media #{$smlg-device}{
+                font-size: 16px;
+            }
+            @media #{$md-layout}{
+                font-size: 14px;
+            }
+        }
+        .post-1-title-2{
+            color: #494E51;
+        }
+        .post-1-iteam-txt{
+            padding-left: 10px;
+            display: flex;
+            align-items: baseline;
+            gap: 5px;
+            .post-icon{
+                i{
+                    font-size: 16px;
+                }
+            }
+        }
+        .txt-img-wrp{
+            .videos-cart-img{
+                position: relative;
+                .play-btn{
+                    position: absolute;
+                    right: 46%;
+                    top: 45%;
+                    opacity: 0.8;
+                    a{
+                        background-color: #262626;
+                        border-radius: 100px;
+                        padding: 26px 28px 25px 31px;
+                        border: 8px solid var(--color-white);
+                        i{
+                            color: var(--color-white);
+                            font-size: 30px;
+                        }
+                    }
+                    @media #{$smlg-device}{
+                        top: 40%;
+                        right: 41%;
+                    }
+                    @media #{$md-layout}{
+                        top: 40%;
+                    }
+                    @media #{$sm-layout}{
+                        top: 32%;
+                        right: 41%;
+                    }
+                }
+            }
+        }
+        .author-banner-wrp{
+            display: flex;
+            .author-banner-content-wrp{
+                margin-left: 40px;
+                .author-title{
+                    font-weight: 600;
+                }
+                .follower{
+                    font-size: 16px;
+                    line-height: 28px;
+                    font-weight: 400;
+                    color: #494E51;
+                }
+                .social-media-wrp{
+                    display: flex;
+                    align-items: baseline;
+                    .follow-btn{
+                        padding: 10px 16px;
+                        background-color: var(--color-rangoon);
+                        border-radius: 6px;
+                        color: var(--color-white);
+                    }
+                    .social-media-list{
+                        margin-left: 24px;
+                        display: flex;
+                        li{
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+        }
+        @media #{$md-layout}{
+            margin-bottom: 20px;
+        }
+    }
+}

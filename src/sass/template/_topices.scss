@@ -1,0 +1,157 @@
+/*-------------------------
+    Topices Style
+-------------------------*/
+
+
+
+.topices-1{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+    .topices-1-sidebar-wrp{
+        padding-left: 100px;
+        @media #{$md-layout}{
+            padding: 0;
+        }
+        .topices-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            a{
+                width: 100%;
+                img{
+                    width: 100%;
+                    transition: var(--transition);
+                    transform: scale(1);
+                    overflow: hidden;
+                }
+            }
+            &:hover{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+            @media #{$md-layout}{
+                text-align: center;
+            }
+        }
+    }
+}
+
+
+.topices-2{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+    .latest-topic-cart-wrp{
+        .topic-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            width: 100%;
+            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                width: 100%;
+            }
+        }
+        .topic-cart-title{
+            @media #{$smlg-device}{
+                font-size: 22px;
+                font-weight: 600;
+            }
+            @media #{$md-layout}{
+                font-size: 32px;
+                font-weight: 600;
+            }
+        }
+        &:hover .topic-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+        @media #{$md-layout}{
+            margin-bottom: 60px;
+        }
+    }
+}
+
+.topices-3{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+    position: relative;
+    .topices-cart-3-wrp{
+        position: relative;
+        z-index: 1;
+        .topices-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            a{
+                width: 100%;
+                img{
+                    transition: var(--transition);
+                    transform: scale(1);
+                    overflow: hidden;
+                    width: 100%;
+                    @media #{$md-layout}{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+        .megamini-cart-date{
+            margin-bottom: 10px;
+            ul{
+                li{
+                    color: #6B7074;
+                }
+                .dot{
+                    background-color: #6B7074;
+                }
+                .share-icon{
+                    color: #6B7074;
+                }
+            }
+        }
+        .topices-cart-title{
+            margin-bottom: 10px;
+            a{
+                color: var(--color-rangoon);
+                font-weight: 600;
+                @media #{$laptop-layout}{
+                  font-size: 28px;
+                }
+                @media #{$smlg-device}{
+                    font-size: 22px;
+                }
+                @media #{$md-layout}{
+                  font-size: 46px;
+               }
+                @media #{$sm-layout}{
+                    font-size: 36px;
+                }
+                @media #{$small-mobile}{
+                    font-size: 32px;
+                }
+            }
+        }
+        &:hover .topices-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+    }
+}
+

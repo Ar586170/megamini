@@ -1,0 +1,32 @@
+/*-------------------------
+  Helper Classes
+-------------------------*/
+
+.bg-color-dark {
+    background-color: var(--color-rangoon);
+}
+
+.bg-color-antique {
+    background-color: var(--color-primary-antique);
+}
+
+.bg-color-scotch {
+    background-color: var(--color-scotch);
+}
+
+.bg-color-light-pink{
+    background-color: var(--color-light-pink);
+}
+
+.bg-color-chiffon{
+    background-color: var(--color-chiffon);
+}
+
+.border-1{
+    border: 1px solid #E2E1E1;
+}
+
+// Opacity
+.opacity-50 {
+    opacity: 0.5;
+}

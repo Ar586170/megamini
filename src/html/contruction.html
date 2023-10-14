@@ -1,0 +1,38 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Megamini{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+<!--=====================================-->
+<!--=        Header Mid Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-mid-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Header Area Start       	=-->
+<!--=====================================-->
+{% include 'header/header-layout1.html' %}
+
+
+<!--=====================================-->
+<!--=        Contruction Area Start       	=-->
+<!--=====================================-->
+{% include 'contruction/contruction.html' %}
+
+
+
+
+{% endblock %}

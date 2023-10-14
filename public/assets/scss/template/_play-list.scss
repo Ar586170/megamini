@@ -1,0 +1,114 @@
+/*-------------------------
+    Play List Style
+-------------------------*/
+
+
+
+
+
+.future-play-list-1{
+    position: relative;
+   .section-title{
+        h2{
+            color: var(--color-rangoon);
+            line-height: 56px;
+        }
+    }
+    .play-list-1-cart-1-wrp{
+        position: relative;
+        z-index: 1;
+        .play-list-1-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                @media #{$md-layout}{
+                width: 100%;
+               }
+            }
+            .play-btn{
+                position: absolute;
+                top: 40%;
+                right: 45%;
+                a{
+                    background-color: var(--color-rangoon);
+                    border-radius: 100px;
+                    padding: 28px 30px 28px 35px;
+                    border: 6px solid var(--color-magnolia);
+                    i{
+                        color: var(--color-white);
+                        font-size: 30px;
+                    }
+                }
+                @media #{$smlg-device}{
+                    top: 35%;
+                    right: 39%;
+                }
+                @media #{$md-layout}{
+                    top: 39%;
+                    right: 44%
+                }
+                @media #{$sm-layout}{
+                    top: 38%;
+                    right: 40%;
+               }
+            }
+        }
+        .megamini-cart-date{
+            margin-bottom: 10px;
+            ul{
+                li{
+                    color: var(--color-smokey-grey);
+                }
+                .dot{
+                    background-color: var(--color-smokey-grey);
+                }
+                .share-icon{
+                    color: var(--color-smokey-grey);
+                }
+            }
+        }
+        .play-list-1-cart-title{
+            margin-bottom: 10px;
+            a{
+                color: var(--color-rangoon);
+                @media #{$laptop-layout}{
+                  font-size: 32px;
+                  line-height: 42px;
+                  font-weight: 600;
+                }
+                @media #{$smlg-device}{
+                    font-size: 22px;
+                    line-height: 42px;
+                    font-weight: 600;
+                }
+                @media #{$md-layout}{
+                    margin-bottom: 40px;
+                    font-size: 32px;
+                    line-height: 48px;
+                    font-weight: 600;
+               }
+                @media #{$sm-layout}{
+                    font-size: 26px;
+                    line-height: 40px;
+                    font-weight: 600;
+                }
+                @media #{$small-mobile}{
+                    font-size: 22px;
+                    line-height: 42px;
+                    font-weight: 600;
+                }
+            }
+        }
+        &:hover .play-list-1-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+    } 
+}

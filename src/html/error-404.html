@@ -1,0 +1,27 @@
+{% extends 'app.html' %}
+
+{# Page Title #}
+{% block title %}Megamini{% endblock %}
+
+{# Custom Code In Head #}
+{% block header %}{% endblock %}
+
+{# Custom Code In Footer #}
+{% block head %}{% endblock %}
+
+{# Body Class Add #}
+{% block attribute %}class="sticky-header"{% endblock %}
+
+{% block content %}
+
+
+
+<!--=====================================-->
+<!--=        Error Area Start       	=-->
+<!--=====================================-->
+{% include 'error404/error-404.html' %}
+
+
+
+
+{% endblock %}

@@ -1,0 +1,114 @@
+/*-------------------------
+   Call To Action Styles
+-------------------------*/
+
+
+
+.call-to-action-1{
+   position: relative;
+   .call-to-action-wrp{
+      padding: 126px 0;
+      .call-to-action-title{
+         font-weight: 400;
+         color: var(--color-white);
+         @media #{$smlg-device}{
+            font-size: 46px;
+            line-height: 56px;
+            font-weight: 400;
+         }
+         @media #{$md-layout}{
+            font-size: 32px;
+            line-height: 42px;
+            font-weight: 400;
+         }
+         @media #{$sm-layout}{
+            font-size: 48px;
+            line-height: 60px;
+            font-weight: 400;
+         }
+      }
+      .subscribe-form{
+         position: relative;
+         .form-input{
+            background-color: var(--color-white);
+            border-radius: 12px;
+            box-shadow: none;
+         }
+         .subscribe-btn{
+            position: absolute;
+            right: 16px;
+            top: 8px;
+            background-color: var(--color-rangoon);
+            border-radius: 8px;
+            border: none;
+            color: var(--color-white);
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 400;
+            padding: 10px 16px;
+         }
+         @media #{$sm-layout}{
+            margin-bottom: 60px;
+         }
+      }
+      @media #{$md-layout}{
+         padding: 50px 0;
+      }
+   }
+   .call-to-action-img{
+      margin: 0 0 0 175px;
+      position: relative;
+      top: -40px;
+      @media #{$md-layout}{
+         margin: 0 0 0 100px;
+      }
+      @media #{$sm-layout}{
+         margin: 0;
+         text-align: center;
+         margin-bottom: 50px;
+      }
+   }
+   .call-to-action-shape{
+      position: absolute;
+      right: 33%;
+      top: 63%;
+      img{
+         @media #{$md-layout}{
+            width: 70%;
+         }
+         @media #{$sm-layout}{
+            width: 100%;
+         }
+         @media #{$large-mobile}{
+            width: 70%;
+         }
+         @media #{$small-mobile}{
+            width: 50%;
+         }
+      }
+      @media #{$laptop-layout}{
+         right: 27%;
+         top: 60%;
+      }
+      @media #{$smlg-device}{
+         right: 23%;
+         top: 37%;
+      }
+      @media #{$md-layout}{
+         right: 20%;
+         top: 50%;
+      }
+      @media #{$sm-layout}{
+         right: 57%;
+         top: 80%;
+      }
+      @media #{$large-mobile}{
+         right: 53%;
+         top: 83%;
+      }
+      @media #{$small-mobile}{
+         right: 61%;
+         top: 85%;
+      }
+   }
+}

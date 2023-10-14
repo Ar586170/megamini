@@ -1,0 +1,122 @@
+/*-------------------------
+   Footer Styles
+-------------------------*/
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+.megamini-footer{
+    margin-bottom: 40px;
+    .megamini-footer-logo-wrp{
+        .footer-light-logo{
+            margin-bottom: 20px;
+            @media #{$md-layout}{
+                margin-bottom: 10px;
+            }
+        }
+        .dark-version-logo{
+            display: none;
+            margin-bottom: 20px;
+        }
+        .footer-txt{
+            font-size: 16px;
+            line-height: 24px;
+            color: var(--color-smokey-grey); 
+            margin-bottom: 30px;
+            @media #{$md-layout}{
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+        }
+        .footer-social-media{
+            li{
+                margin-right: 10px;
+                a{
+                    font-size: 30px;
+                    color: var(--color-primary-periwinkle);
+                    transition: var(--transition);
+                    &:hover{
+                        color: var(--color-orange);
+                    }
+                }
+            }
+            @media #{$sm-layout}{
+                margin-bottom: 20px;
+            }
+        }
+    }
+    .footer-content-wrp{
+        justify-content: space-between;
+        .footer-content{
+            .content-title{
+                font-weight: 500;
+                line-height: 26px;
+                font-size: 16px;
+                margin-bottom: 20px;
+                @media #{$md-layout}{
+                    margin-bottom: 28px;
+                }
+            }
+            .contant-iteam{
+                li{
+                    margin-bottom: 8px;
+                    a{
+                        font-size: 16px;
+                        line-height: 24px;
+                        color: var(--color-smokey-grey);
+                        transition: var(--transition);
+                        &:hover{
+                            color: var(--color-rangoon);
+                        }
+                        @media #{$md-layout}{
+                            font-size: 14px;
+                            line-height: 24px;
+                            font-weight: 400;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+.footer-copyright-wrp{
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    .footer-menu{
+        li{
+            margin-right: 20px;
+            a{
+                font-size: 16px;
+                line-height: 24px;
+                color: var(--color-smokey-grey);
+                transition: var(--transition);
+                &:hover{
+                    color: var(--color-rangoon);
+                }
+                @media #{$md-layout}{
+                    font-size: 14px;
+                    line-height: 24px;
+                    font-weight: 400;
+                } 
+            }
+        }
+    }
+    .copyright{
+        font-size: 16px;
+        line-height: 24px;
+        color: var(--color-smokey-grey);
+        @media #{$md-layout}{
+            font-size: 14px;
+            line-height: 24px;
+            font-weight: 400;
+        }
+    }
+    @media #{$large-mobile}{
+        display: inline-block;
+    }
+}

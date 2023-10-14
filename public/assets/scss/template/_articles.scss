@@ -1,0 +1,325 @@
+/*-------------------------
+    Articles Style
+-------------------------*/
+
+
+
+.articles-1{
+    position: relative;
+   .section-title{
+        h2{
+            color: var(--color-rangoon);
+            line-height: 56px;
+        }
+    }
+    .articles-cart-1-wrp{
+        position: relative;
+        z-index: 1;
+        .articles-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                @media #{$md-layout}{
+                    width: 100%;
+               }
+            }
+        }
+        .megamini-cart-date{
+            margin-bottom: 10px;
+        }
+        .articles-cart-title{
+            margin-bottom: 10px;
+            a{
+                color: var(--color-rangoon);
+                @media #{$laptop-layout}{
+                  font-size: 34px;
+                  line-height: 48px;
+                  font-weight: 600;
+                }
+                @media #{$smlg-device}{
+                    font-size: 24px;
+                    line-height: 42px;
+                    font-weight: 600;
+                }
+                @media #{$md-layout}{
+                  font-size: 28px;
+                  line-height: 48px;
+                  font-weight: 600;
+               }
+                @media #{$small-mobile}{
+                    font-size: 24px;
+                    line-height: 42px;
+                    font-weight: 600;
+                }
+            }
+        }
+        .articles-cart-details{
+            margin-bottom: 80px;
+            color: var(--color-rangoon);
+            @media #{$smlg-device}{
+                font-size: 15px;
+                line-height: 28px;
+                font-weight: 400;
+            }
+            @media #{$md-layout}{
+                font-size: 22px;
+                line-height: 30px;
+                font-weight: 400;
+            }
+            @media #{$sm-layout}{
+                font-size: 16px;
+                line-height: 28px;
+                font-weight: 400;
+            }
+            @media #{$small-mobile}{
+                font-size: 14px;
+                line-height: 24px;
+                font-weight: 400;
+            }
+        }
+        &:hover .articles-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+    }
+    .articles-bg-shape{
+        position: absolute;
+        bottom: 0;
+    } 
+}
+
+
+
+.articles-2{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+}
+
+
+.articles-3{
+    .section-title{
+        h2{
+            color: var(--color-rangoon);
+        }
+    }
+    .chat-bot{
+        display: block;
+        .chat-bot-content-wrp{
+            display: flex;
+            padding: 0;
+            .chat-bot-img{
+                margin-right: 24px;
+                position: relative;
+                overflow: hidden;
+                border-radius: 8px;
+                img{
+                    border-radius: 8px;
+                    transition: var(--transition);
+                    transform: scale(1);
+                    overflow: hidden;
+                }
+            }
+            .chat-title{
+                margin-bottom: 10px;
+                @media #{$laptop-layout}{
+                    font-size: 30px;
+                    font-weight: 600;
+                }
+                @media #{$smlg-device}{
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+            }
+        .chat-details{
+            font-size: 16px;
+            margin-bottom: 20px;
+            @media #{$smlg-device}{
+                font-size: 10px;
+                line-height: 20px;
+            }
+        }
+        @media #{$md-layout}{
+           padding: 0;
+        }
+    }
+    &:hover .chat-bot-img img{
+        transform: scale(1.05);       
+    }
+    &:hover .hover-line a{
+        background-size: 100% 2px;
+    }
+    @media #{$md-layout}{
+        display: inline-block;
+    }
+}
+
+}
+
+
+.articles-layout-7{
+    padding: 40px 0 100px;
+    .articles-cart-7-wrp{
+        .articles-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                @media #{$md-layout}{
+                    width: 100%;
+               }
+            }
+            .megamini-cart-date{
+                position: absolute;
+                top: 65%;
+                left: 38px;
+                ul{
+                    li{
+                        color: var(--color-white);
+                    }
+                    .dot{
+                        background-color: var(--color-white);
+                    }
+                    .share-icon{
+                        color: var(--color-white);
+                    }
+                }
+            }
+            .articles-cart-title{
+                a{
+                    font-size: 58px;
+                    font-weight: 400;
+                    color: var(--color-white);
+                    @media #{$smlg-device}{
+                        font-size: 46px;
+                    }
+                    @media #{$md-layout}{
+                        font-size: 58px;
+                    }
+                    @media #{$sm-layout}{
+                        font-size: 46px;
+                    }
+                }
+                position: absolute;
+                top: 73%;
+                left: 38px;
+            }
+        }
+        .megamini-cart-date{
+            ul{
+                li{
+                    color: #74767C;
+                }
+                .dot{
+                    background-color: #74767C;
+                }
+                .share-icon{
+                    color: #74767C;
+                }
+            }
+        }
+        .articles-cart-title{
+            a{
+                font-size: 46px;
+                font-weight: 400;
+                @media #{$smlg-device}{
+                    font-size: 32px;
+                }
+                @media #{$md-layout}{
+                  font-size: 46px;
+                }
+                @media #{$sm-layout}{
+                    font-size: 38px;
+                }
+                @media #{$small-mobile}{
+                    font-size: 32px;
+                }
+            }
+        }
+        &:hover .articles-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+    }
+}
+
+
+.articles-8{
+    position: relative;
+    .articles-cart-8-wrp{
+        position: relative;
+        z-index: 1;
+        .articles-cart-img{
+            position: relative;
+            overflow: hidden;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            img{
+                transition: var(--transition);
+                transform: scale(1);
+                overflow: hidden;
+                @media #{$md-layout}{
+                    width: 100%;
+               }
+            }
+        }
+        .megamini-cart-date{
+            margin-bottom: 10px;
+            ul{
+                li{
+                    color: var(--color-white);
+                }
+                .dot{
+                    background-color: var(--color-white);
+                }
+                .share-icon{
+                    color: var(--color-white);
+                }
+            }
+        }
+        .articles-cart-title{
+            margin-bottom: 10px;
+            a{
+                color: var(--color-white);
+                font-weight: 400;
+                font-size: 46px;
+                @media #{$laptop-layout}{
+                  font-size: 46px;
+                }
+                @media #{$smlg-device}{
+                    font-size: 34px;
+                }
+                @media #{$md-layout}{
+                  font-size: 46px;
+               }
+                @media #{$sm-layout}{
+                    font-size: 38px;
+                }
+                @media #{$small-mobile}{
+                    font-size: 32px;
+                }
+            }
+        }
+        &:hover .articles-cart-img img{
+            transform: scale(1.05);       
+        }
+        &:hover .hover-line a{
+            background-size: 100% 2px;
+        }
+    }
+}

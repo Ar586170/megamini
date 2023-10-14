@@ -1,0 +1,52 @@
+/*-------------------------
+   Get In Touch Styles
+-------------------------*/
+
+
+
+.get-in-touch-layout1{
+   padding: 60px 0;
+   .get-in-title{
+      h2{
+         @media #{$smlg-device}{
+            font-size: 35px;
+         }
+      }
+   }
+   .read-more-btn{
+      background-color: #979BFA;
+      display: inline-block;
+      border-radius: 6px;
+      a{
+         padding: 10px 16px;
+         color: var(--color-rangoon);
+         font-weight: 500;
+         i{
+            margin-left: 10px;
+         }
+      }
+      @media #{$md-layout}{
+         margin-bottom: 40px;
+      }
+   }
+   .get-in-img{
+      a{
+         position: relative;
+         overflow: hidden;
+         border-radius: 6px;
+         width: 100%;
+         img{
+            transition: var(--transition);
+            transform: scale(1);
+            overflow: hidden;
+            width: 100%;
+            @media #{$md-layout}{
+               width: 100%;
+            }
+         }
+      }
+      &:hover img{
+         transform: scale(1.05);       
+      }
+   }
+}
